@@ -69,10 +69,10 @@ class FirstFragment : Fragment() {
         val text: String
         if (AppPref.isLightThemeEnabled) {
             text =
-                "<style type=\"text/css\">body,* { color:#666666; font-size: 13px;line-height:1.2}img{max-width:100%;height:auto; border-radius: 3px;}</style>";
+                "<style type=\"text/css\">@font-face {font-family: MyFont;src: url(\"file:///android_asset/ptsansNarrow-regular.ttf\")}body,* {font-family: MyFont; color:#666666; font-size: 13px;line-height:1.2}img{max-width:100%;height:auto; border-radius: 3px;}</style>";
         }else{
             text =
-                "<style type=\"text/css\">body,* { background-color:#1A1919;color:#f6f6f6; font-size: 13px;line-height:1.2}img{max-width:100%;height:auto; border-radius: 3px;}</style>";
+                "<style type=\"text/css\">@font-face {font-family: MyFont;src: url(\"file:///android_asset/ptsansNarrow-regular.ttf\")}body,* {font-family: MyFont; background-color:#1A1919;color:#f6f6f6; font-size: 13px;line-height:1.2}img{max-width:100%;height:auto; border-radius: 3px;}</style>";
         }
         mWebView.loadDataWithBaseURL("",  text+"<div>" + fishD[0].story_description + "</div>", "text/html", "utf-8", null)
         val textFromHtml: Spanned? = Html.fromHtml(Html.fromHtml(fishD[0].story_description).toString())
