@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.itbooh.fishapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_marine_fish"
+        android:name="com.itbooh.fishapp.ui.fishbycat.SlideshowFragment"
+        android:label="@string/marine_fish"
+        tools:layout="@layout/fragment_slideshow">
+        <argument
+            android:name="catId"
+            app:argType="string"
+            android:defaultValue="122"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fresh_water"
+        android:name="com.itbooh.fishapp.ui.fishbycat.SlideshowFragment"
+        android:label="@string/fresh_water"
+        tools:layout="@layout/fragment_slideshow">
+        <argument
+            android:name="catId"
+            app:argType="string"
+            android:defaultValue="121"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_amphidromous"
+        android:name="com.itbooh.fishapp.ui.fishbycat.SlideshowFragment"
+        android:label="@string/amphidromous"
+        tools:layout="@layout/fragment_slideshow">
+        <argument
+            android:name="catId"
+            app:argType="string"
+            android:defaultValue="123"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_subtropical_fish"
+        android:name="com.itbooh.fishapp.ui.fishbycat.SlideshowFragment"
+        android:label="@string/subtropical_fish"
+        tools:layout="@layout/fragment_slideshow">
+        <argument
+            android:name="catId"
+            app:argType="string"
+            android:defaultValue="124"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_aquatic_plants"
+        android:name="com.itbooh.fishapp.ui.fishbycat.SlideshowFragment"
+        android:label="@string/aquatic_plants"
+        tools:layout="@layout/fragment_slideshow">
+        <argument
+            android:name="catId"
+            app:argType="string"
+            android:defaultValue="125"/>
+    </fragment>
+
+</navigation>

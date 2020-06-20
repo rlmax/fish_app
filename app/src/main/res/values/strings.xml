@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Fish Book</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">fish@itbooh.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="search">Search</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="marine_fish">Marine fish</string>
+    <string name="fresh_water">Fresh water</string>
+    <string name="amphidromous">Amphidromous</string>
+    <string name="subtropical_fish">Subtropical fish</string>
+    <string name="aquatic_plants">Aquatic plants</string>
+    <string name="loading">loading</string>
+    <string name="admob_app_id">ca-app-pub-9502006222792230~3522585763</string>
+    <string name="banner_id_home">ca-app-pub-9502006222792230/5572172211</string>
+    <string name="banner_details">ca-app-pub-9502006222792230/8791864943</string>
+    <string name="banner_category">ca-app-pub-9502006222792230/4609077358</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_marine_fish"
+            android:icon="@drawable/ic_fish"
+            android:title="@string/marine_fish" />
+        <item
+            android:id="@+id/nav_fresh_water"
+            android:icon="@drawable/ic_fish"
+            android:title="@string/fresh_water" />
+        <item
+            android:id="@+id/nav_amphidromous"
+            android:icon="@drawable/ic_fish"
+            android:title="@string/amphidromous" />
+        <item
+            android:id="@+id/nav_subtropical_fish"
+            android:icon="@drawable/ic_fish"
+            android:title="@string/subtropical_fish" />
+        <item
+            android:id="@+id/nav_aquatic_plants"
+            android:icon="@drawable/ic_fish"
+            android:title="@string/aquatic_plants" />
+    </group>
+</menu>

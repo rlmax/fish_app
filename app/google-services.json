@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "5180031101",
+    "firebase_url": "https://fish-book-app.firebaseio.com",
+    "project_id": "fish-book-app",
+    "storage_bucket": "fish-book-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5180031101:android:bab973d303aa7920bbf114",
+        "android_client_info": {
+          "package_name": "com.itbooh.fishapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5180031101-onq6hkjdpf5tra6srl22vog2ht4hepdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZRuQ1BYmz10xNjMHCHfO6nqqdpB0PNXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5180031101-onq6hkjdpf5tra6srl22vog2ht4hepdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
