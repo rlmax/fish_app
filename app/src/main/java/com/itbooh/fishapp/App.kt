@@ -44,7 +44,7 @@ class App  : Application() {
             .writeTimeout(180, TimeUnit.SECONDS).build()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("http://alloneset.com/fishapp/")
+            .baseUrl("https://fish.itbooh.xyz/fishapp/")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
