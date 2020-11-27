@@ -75,7 +75,7 @@ class HomeFragment : Fragment() {
                 return false
             }
             override fun onQueryTextChange(newText: String?): Boolean {
-                Log.d("fff",newText)
+                newText?.let { Log.d("fff", it) }
                 if (newText != null) {
                     if (newText.length > 0) {
                         val searchItems: MutableList<Fish> =
